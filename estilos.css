@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+@media only screen and (min-width: 375px)
+{body {
+    background-color: rgb(219, 22, 22);
+}
+}
+@media only screen and (min-width: 480px) {body
+{
+background-color: rgb(34, 187, 3);
+}}
+@media only screen and (min-width: 600px) {body
+    {
+    background-color: rgb(155, 13, 108);
+}}
+@media only screen and (min-width: 760px) {body
+    {
+    background-color: rgb(186, 206, 9);
+}}
+@media only screen and (min-width: 1024px) {body
+    {
+    background-color: rgb(22, 11, 122);
+}}
+@media only screen and (min-width: 1200px) {body
+    {
+    background-color: rgb(12, 145, 145);
+}}
+main{
+    background-image: url(imagen\ de\ laptop\ con\ audifonos.jpg.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+}
+main h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #ff0000;
+}
+main span{
+    color: maroon;
+}
+main a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-family: monospace;
+    display: inline-block; 
+    list-style: none;
+    margin-left: 200px;
+    text-transform: capitalize;
+}
+footer{
+    height: 200px;
+    width: auto;
+    background-color: lightgray;
+    text-align: right;
+}
+main p{
+    font-size: 26px;
+    font-family: monospace;
+    color: rgb(122, 26, 26);
+    
+}
+p class{
+    font-size: 30px;
+    color: maroon;
+    font-weight: 700;
+}
+.subir{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(243, 2, 38);
+    *border: 1px solid  springgreen;
+    border-radius: 60px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.subir i{
+    color: chartreuse;
+    font-size: 25   ;
+    line-height: 50px;
+    font-weight: bold;
+}
+main div nav{ 
+    height: auto;
+    width: 200px;
+    background-position: center;
+}
+p{
+    color: rgb(3, 0, 180);
+}
+main div h2{
+    color: rgb(252, 252, 252);
+    font-family: cursive;
+    font-size: 30px;
+}   
+main div h2 p{
+    color: beige;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+main form{
+    color: rgb(245, 52, 4);
+    font-size: 25px;
+    font-family: cursive;
+    text-align: justify;
+    margin-top: 50px;
+}
